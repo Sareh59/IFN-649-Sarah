@@ -25,9 +25,8 @@ void setup() {
   // Setup Serial1 for BlueTooth
   Serial1.begin(9600); // Default communication rate of the Bluetooth module
 }
-
 void loop() {
-  if(Serial1.available() > 0){ // Checks whether data is comming from the serial port
+  if(Serial1.available() == 0){ // Checks whether data is comming from the serial port
     digitalWrite(LEDPIN, HIGH);
     
     float h = dht.readHumidity();
