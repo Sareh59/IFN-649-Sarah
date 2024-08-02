@@ -1,3 +1,7 @@
+//AT+NAME=SARA
+//AT+PSWD=1111
+//AT MODE NEED CABLE TO 
+
 /*
 AUTHOR: Hazim Bitar (techbitar)
 DATE: Aug 29, 2013
